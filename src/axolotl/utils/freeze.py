@@ -12,6 +12,7 @@ LOG = logging.getLogger("axolotl.utils.freeze")
 
 def freeze_layers_except(model, regex_patterns):
     """
+    .
     Freezes all layers of the given model except for the layers that match given regex patterns.
     Periods in the patterns are treated as literal periods, not as wildcard characters.
 
